@@ -1,7 +1,7 @@
 {
     "name": "YourKingdom-Launcher",
     "preductname": "YourKingdom Launcher",
-    "version": "1.5.2",
+    "version": "1.6.0",
     "description": "Launcher Mincraft pour le serveur YourKingdom",
     "main": "src/app.js",
     "author": {
@@ -9,7 +9,7 @@
         "email": "contact@luuxis.fr",
         "url": "https://github.com/luuxis"
     },
-    "url": "https://install.yourkingdom.fr",
+    "url": "http://play.eldjsono.fr/siteelcloud/YourKingdom/",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
