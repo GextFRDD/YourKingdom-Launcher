@@ -1,7 +1,7 @@
 {
     "name": "YourKingdom-Launcher",
     "preductname": "YourKingdom Launcher",
-    "version": "1.6.1",
+    "version": "1.6.2",
     "description": "Launcher Mincraft pour le serveur YourKingdom",
     "main": "src/app.js",
     "author": {
