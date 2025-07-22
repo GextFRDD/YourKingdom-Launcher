@@ -1,7 +1,7 @@
 {
-    "name": "YourKingdom",
+    "name": "YourKingdom - ROLE PLAY & FUN",
     "preductname": "YourKingdom Launcher",
-    "version": "1.7.0",
+    "version": "1.7.1",
     "description": "Launcher Mincraft pour le serveur YourKingdom",
     "main": "src/app.js",
     "author": {
