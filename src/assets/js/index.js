@@ -30,7 +30,7 @@ class Splash {
 
     async startAnimation() {
         let splashes = [
-            { "message": "Je... vie...", "author": "Luuxis" },
+            { "message": "Je... sui... ton... père...", "author": "louis" },
             { "message": "Salut je suis du code.", "author": "Luuxis" },
             { "message": "Linux n'est pas un os, mais un kernel.", "author": "Luuxis" }
         ];
