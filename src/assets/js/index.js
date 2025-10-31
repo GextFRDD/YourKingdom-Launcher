@@ -30,9 +30,15 @@ class Splash {
 
     async startAnimation() {
         let splashes = [
-            { "message": "Je... sui... ton... père...", "author": "louis" },
-            { "message": "Salut je suis du code.", "author": "Luuxis" },
-            { "message": "Linux n'est pas un os, mais un kernel.", "author": "Luuxis" }
+            { "message": "🌍 Un nouveau monde s’éveille... es-tu prêt à y entrer ?", "author": "Louis" },
+            { "message": "⚔️ Les royaumes s’affrontent, les alliances se forment...", "author": "Louis" },
+            { "message": "🧙 De nouvelles terres magiques t’attendent... ose t’y aventurer.", "author": "Louis" },
+            { "message": "🏰 Les bâtisseurs reprennent leurs outils... le Royaume renaît.", "author": "Louis" },
+            { "message": "🔥 Les anciens mondes disparaissent, un nouveau commence.", "author": "Louis" },
+            { "message": "💎 Explore, conquiers, forge ta légende sur le Nouveau Royaume.", "author": "Louis" },
+            { "message": "🌫️ Les portails se rouvrent... vers des dimensions inconnues.", "author": "Louis" },
+            { "message": "🌀 Les aventuriers racontent déjà des histoires étranges...", "author": "Louis" },
+            { "message": "✨ YourKingdom NEXT — là où tout commence vraiment.", "author": "Louis" }
         ];
         let splash = splashes[Math.floor(Math.random() * splashes.length)];
         this.splashMessage.textContent = splash.message;
@@ -131,7 +137,7 @@ class Splash {
 
     shutdown(text) {
         this.setStatus(`${text}<br>Arrêt dans 5s`);
-        let i = 4;
+        let i = 14;
         setInterval(() => {
             this.setStatus(`${text}<br>Arrêt dans ${i--}s`);
             if (i < 0) ipcRenderer.send('update-window-close');
