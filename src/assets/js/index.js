@@ -30,12 +30,15 @@ class Splash {
 
     async startAnimation() {
         let splashes = [
-            { "message": "🎃 La lune se lève... les monstres aussi !", "author": "Louis" },
-            { "message": "👻 Un fantôme rôde dans le launcher...", "author": "Louis" },
-            { "message": "🕸️ Code ou malédiction ? À toi de choisir...", "author": "Louis" },
-            { "message": "💀 Le serveur attend... dans l’ombre.", "author": "Louis" },
-            { "message": "🧛 La nuit tombe, les joueurs se réveillent.", "author": "Louis" },
-            { "message": "☠️ Linux... ou la mort !", "author": "Louis" }
+            { "message": "🌍 Un nouveau monde s’éveille... es-tu prêt à y entrer ?", "author": "Louis" },
+            { "message": "⚔️ Les royaumes s’affrontent, les alliances se forment...", "author": "Louis" },
+            { "message": "🧙 De nouvelles terres magiques t’attendent... ose t’y aventurer.", "author": "Louis" },
+            { "message": "🏰 Les bâtisseurs reprennent leurs outils... le Royaume renaît.", "author": "Louis" },
+            { "message": "🔥 Les anciens mondes disparaissent, un nouveau commence.", "author": "Louis" },
+            { "message": "💎 Explore, conquiers, forge ta légende sur le Nouveau Royaume.", "author": "Louis" },
+            { "message": "🌫️ Les portails se rouvrent... vers des dimensions inconnues.", "author": "Louis" },
+            { "message": "🌀 Les aventuriers racontent déjà des histoires étranges...", "author": "Louis" },
+            { "message": "✨ YourKingdom NEXT — là où tout commence vraiment.", "author": "Louis" }
         ];
         let splash = splashes[Math.floor(Math.random() * splashes.length)];
         this.splashMessage.textContent = splash.message;
